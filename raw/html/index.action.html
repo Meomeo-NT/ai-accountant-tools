@@ -1,0 +1,202 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Login,Credit Ratings System</title>
+<style>
+	body {
+	    background-color: #428bca;
+	    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+	.panel {
+		background-color: #fff;
+		border-radius: 3px;
+	}
+	.panel-signin {
+	    width: 400px;
+	    margin: 80px auto 0 auto;
+	}
+	.panel-signin .panel-body {
+    padding: 40px;
+	}
+
+	.panel-signin .panel-footer {
+	    padding-left: 40px;
+	    padding-right: 40px;
+	}
+	.panel-footer {
+	    padding: 20px;
+	    background: #f7f7f7;
+	    border-color: #ddd;
+	    padding: 10px 15px;
+	    background-color: #f5f5f5;
+	    border-top: 1px solid #ddd;
+	    border-bottom-right-radius: 3px;
+	    border-bottom-left-radius: 3px;
+    }
+    
+    .btn {
+	    border-radius: 3px;
+	    line-height: 21px;
+	    padding: 8px 15px;
+	    border-width: 0;
+	    color: #fff;
+	    background-color: #428bca;
+	    border-color: #357ebd;
+	}
+	.input {
+		border: 1px solid #ccc;
+		height: 20px;
+		width: 220px;
+		margin-bottom: 10px;
+		border-radius: 3px;
+		padding: 6px;
+	}
+	
+	form label {
+		font-size: 15px;
+	}
+</style>
+
+<script type="text/javascript"	src='/XHTDVRB/Js/md5.js'></script>
+<script type="text/javascript" src="/XHTDVRB/Js/jquery-1.7.2.js" ></script>
+<link rel="stylesheet" type="text/css" media="screen" href="/XHTDVRB/Css/jquery-ui-1.8.2.custom.css" />
+</head>
+<body>	
+	<div class="panel panel-signin">
+			<div class="panel-body">
+				<div class="mb30"></div>
+				<div class="logo text-center">		              
+		               <img src="/XHTDVRB/images/VRB_logo.png" alt="VRB Logo" > 
+		              
+		        </div>
+		        <div class="mb30"></div>
+		        <div style="display:none"><input type="text" id="abc"></div>
+		         <table align="center" style="width: 100%;">
+					<tr><td>
+						<h4 style="color:#eb5861"><label id="lblAppName">CHƯƠNG TRÌNH XẾP HẠNG TÍN DỤNG</label></h4>
+						<form id="login" name="login" action="/XHTDVRB/login.action" method="post">
+<table class="wwFormTable">
+							<tr>
+    <td class="tdLabel"><label for="userName" class="label">Username:</label></td>
+    <td
+><input type="text" name="userName" value="" id="userName" class="text ui-widget-content ui-corner-all" style="width:200px"/></td>
+</tr>
+
+							<tr>
+    <td class="tdLabel"><label for="password" class="label">Password:</label></td>
+    <td
+><input type="password" name="password" id="password" class="text ui-widget-content ui-corner-all" style="width:200px"/></td>
+</tr>
+
+							<tr>
+    <td class="tdLabel"><label for="language" class="label">Language:</label></td>
+    <td
+><select name="language" id="language" class="text ui-widget-content ui-corner-all" onchange="ChangeLanguage()" style="width:200px">
+    <option value="1">Select a language</option>
+    <option value="2">VietNamese</option>
+    <option value="3">English</option>
+
+
+</select>
+</td>
+</tr>
+
+							<tr>
+    <td colspan="2"><div align="right"><input type="submit" id="login_0" value="Login" class="btn" onclick="return DecryptPassword();"/>
+</div></td>
+</tr>
+				
+						</table></form>
+
+
+
+
+						</td></tr>
+				</table> 
+				
+			</div>
+			<div class="panel-footer">
+	          	 <p style="font-size:12px;" lang="lang_Vi"><label id="appfooter">©2017 - Ngân hàng Liên doanh Việt - Nga.</label></p> 
+	          	
+	      	</div>
+		</div>
+</body>
+<script type="text/javascript">
+
+$(function() {
+	var colanguage= getCookie("clanguage");
+	$("#language").val(colanguage);
+	ChangeLanguage();
+});
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+function ChangeLanguage(){
+	var language = document.getElementById("language").value; 
+	if (language=="3"){
+		document.getElementById("lblAppName").innerHTML="CREDIT RATING SYSTEM";
+		document.getElementById("appfooter").innerHTML="© 2017 Vietnam - Russia Joint Venture Bank"; 
+		
+		
+	}
+	else {
+		document.getElementById("lblAppName").innerHTML="CHƯƠNG TRÌNH XẾP HẠNG TÍN DỤNG";
+		document.getElementById("appfooter").innerHTML="©2017 - Ngân hàng Liên doanh Việt - Nga."; 
+		
+		
+		
+	}
+	 
+}
+
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+function DecryptPassword(){
+	
+	var pass = document.getElementById("password").value;
+	var user = document.getElementById("userName").value;
+	
+	if (user==''){
+		alert("Username is required!");
+		return false;
+	}
+	if (pass==''){
+		alert("Password is required!");
+		return false;
+	}
+	var language = document.getElementById("language").value;
+	if (language=="1"){
+		alert("Language is required!");
+		return false;
+	}
+	
+	document.getElementById("abc").value = pass;
+	var abcPass = document.getElementById("abc").value;
+	var newPass = abcPass + "_" + user;	
+	document.getElementById("password").value = md5(newPass);
+			  
+	  setCookie("clanguage", language, 365); //save selected in cookie
+	
+}
+
+</script>
+</html>
