@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Automate Invoice Processing",
+    "slug": "invoice-processing",
+    "difficulty": "Beginner",
+    "time_saved": "2 hours/week",
+    "problem": "Kế toán nhận hóa đơn PDF/email và phải nhập tay vào Excel mất ~2 giờ/ngày.",
+    "old_way": "PDF → đọc tay → nhập Excel → kiểm tra",
+    "new_way": "PDF Invoice → AI OCR → Excel/Accounting SW → review",
+    "steps": [
+      "Upload hóa đơn vào công cụ OCR (Docsumo)",
+      "AI trích xuất trường: số hóa đơn, ngày, mã số thuế, thành tiền",
+      "Validate bằng ChatGPT (kiểm tra lệch số, thiếu trường)",
+      "Export ra Excel hoặc phần mềm kế toán",
+      "Review cuối trước khi ghi sổ"
+    ],
+    "tools": ["ChatGPT", "Docsumo", "Microsoft Copilot", "Zapier"],
+    "target_user": ["Accountant", "AP Clerk", "SME Finance Team"],
+    "industry": ["Retail", "Manufacturing", "Service"],
+    "free_template": true,
+    "seo_keywords": ["automate invoice processing", "AI OCR for invoices", "how accountants automate invoice entry"]
+  },
+  {
+    "name": "Automate Bank Reconciliation",
+    "slug": "bank-reconciliation",
+    "difficulty": "Intermediate",
+    "time_saved": "3 hours/month",
+    "problem": "Đối chiếu số dư sổ sách với sao kê ngân hàng thủ công mất nhiều giờ.",
+    "old_way": "Sao kê vs sổ cái → đối chiếu dòng theo dòng trong Excel",
+    "new_way": "Excel template + AI so sánh và gợi ý nguyên nhân lệch",
+    "steps": [
+      "Tải sao kê ngân hàng (CSV) và xuất sổ cái",
+      "Dùng Power Query ghép 2 bảng",
+      "ChatGPT/Copilot gợi ý nguyên nhân các dòng lệch",
+      "Đánh dấu các bút toán chờ (outstanding)",
+      "Xuất báo cáo đối chiếu"
+    ],
+    "tools": ["Microsoft Copilot", "ChatGPT", "Julius AI"],
+    "target_user": ["Accountant", "SME Finance Team"],
+    "industry": ["Retail", "Manufacturing", "Service"],
+    "free_template": true,
+    "seo_keywords": ["AI bank reconciliation", "automate reconciliation accountants", "Excel reconciliation template"]
+  },
+  {
+    "name": "Automate Month-end Closing",
+    "slug": "month-end-closing",
+    "difficulty": "Advanced",
+    "time_saved": "4 hours/month",
+    "problem": "Đóng sổ cuối tháng lặp lại nhiều bước, dễ sót và mất thời gian tổng hợp.",
+    "old_way": "Checklist thủ công + copy-paste báo cáo",
+    "new_way": "Checklist template + AI review biến động",
+    "steps": [
+      "Dùng checklist đóng sổ (Notion/Excel)",
+      "ChatGPT tóm tắt biến động doanh thu/chi phí tháng này vs tháng trước",
+      "AI gợi ý các khoản bất thường cần kiểm tra",
+      "Gamma AI tạo slide báo cáo nhanh",
+      "Review và phát hành"
+    ],
+    "tools": ["ChatGPT", "Notion AI", "Gamma AI"],
+    "target_user": ["Accountant", "Finance Manager"],
+    "industry": ["Retail", "Manufacturing", "Service"],
+    "free_template": true,
+    "seo_keywords": ["month end closing checklist", "AI for closing", "automate financial close"]
+  }
+]

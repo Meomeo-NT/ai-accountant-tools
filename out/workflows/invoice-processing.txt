@@ -1,0 +1,70 @@
+1:"$Sreact.fragment"
+2:I[8173,["173","static/chunks/173-767e48b05c5f9370.js","689","static/chunks/app/workflows/%5Bslug%5D/page-8ef0cffb24ba3c5e.js"],""]
+3:I[5244,[],""]
+4:I[3866,[],""]
+6:I[6213,[],"OutletBoundary"]
+8:I[6213,[],"MetadataBoundary"]
+a:I[6213,[],"ViewportBoundary"]
+c:I[4835,[],""]
+:HL["/_next/static/css/22b04e880097bbf4.css","style"]
+0:{"P":null,"b":"e7zLOA3_-cXA_bjK3X_Xy","p":"","c":["","workflows","invoice-processing"],"i":false,"f":[[["",{"children":["workflows",{"children":[["slug","invoice-processing","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/22b04e880097bbf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"min-h-screen flex flex-col","children":[["$","header",null,{"className":"bg-brand text-white","children":["$","nav",null,{"className":"max-w-5xl mx-auto px-4 py-4 flex flex-wrap gap-4 text-sm","children":[["$","$L2",null,{"href":"/","className":"font-bold mr-4","children":"AI Accountant Tools"}],["$","$L2",null,{"href":"/workflows","children":"Workflows"}],["$","$L2",null,{"href":"/tools","children":"Tools"}],["$","$L2",null,{"href":"/templates","children":"Templates"}],["$","$L2",null,{"href":"/comparisons","children":"Comparisons"}]]}]}],["$","main",null,{"className":"flex-1 max-w-5xl mx-auto px-4 py-8 w-full","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],["$","div",null,{"className":"text-center py-20","children":[["$","h1",null,{"className":"text-3xl font-bold text-brand","children":"404 — Not found"}],["$","p",null,{"className":"mt-4 text-slate-600","children":"The page you are looking for does not exist."}],["$","$L2",null,{"href":"/","className":"text-brand underline mt-4 inline-block","children":"Back to home"}]]}]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-slate-800 text-slate-300 text-xs text-center py-6","children":["$","p",null,{"children":"AI Accountant Tools does not replace accounting judgement or regulatory compliance. AI recommendations should always be reviewed by qualified accounting professionals."}]}]]}]}]]}],{"children":["workflows",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","workflows","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","invoice-processing","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","workflows","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","4yynLoGHDodl-5zWI03oV",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+d:Tacb,<h1>Workflow: Automate Invoice Processing</h1>
+<h2>1. Accounting Objective</h2>
+<p>Record supplier invoices accurately and timely while maintaining audit trail and internal controls.</p>
+<h2>2. Accounting Process Mapping</h2>
+<p>Accounting Principles &#x26; Regulations → Accounts Payable Process → Invoice Capture → AI Assistance → Tools &#x26; Automation</p>
+<h2>3. Business Problem</h2>
+<p>Kế toán nhận hóa đơn PDF/email và phải nhập tay vào Excel mất ~2 giờ/ngày, dễ sai sót OCR và nhập trùng.</p>
+<h2>4. Current Manual Process</h2>
+<pre><code>PDF Invoice → Đọc tay từng trường → Nhập Excel → Kiểm tra lại
+</code></pre>
+<p>~2 giờ/ngày.</p>
+<h2>5. AI-assisted Workflow</h2>
+<pre><code>PDF Invoice → AI OCR → ChatGPT Validate → Export Excel/SW → Kế toán review cuối
+</code></pre>
+<p>~15 phút/ngày.</p>
+<h2>6. Accounting Control Points</h2>
+<ul>
+<li>VAT treatment: kiểm tra MST, thuế suất, loại hóa đơn (GTGT/Ban hang)</li>
+<li>Expense classification: đúng tài khoản chi phí/công nợ</li>
+<li>Approval: hóa đơn > ngưỡng phải có phê duyệt</li>
+<li>Segregation of duties: người nhập ≠ người duyệt ≠ người ghi sổ</li>
+</ul>
+<h2>7. Human Review Checklist</h2>
+<p>Before applying AI output:</p>
+<ul>
+<li>☐ Verify source document (PDF gốc khớp dữ liệu OCR)</li>
+<li>☐ Confirm accounting treatment (tài khoản Nợ/Có, thuế, phí)</li>
+<li>☐ Review unusual cases (số tiền bất thường, NCC lạ)</li>
+<li>☐ Approve final entry (ghi sổ sau kiểm tra)</li>
+</ul>
+<h2>8. Tools</h2>
+<p>| Công việc | Tool |
+|-----------|------|
+| Trích xuất dữ liệu | Docsumo |
+| Kiểm tra / validate | ChatGPT |
+| Nhập Excel nhanh | Microsoft Copilot |
+| Tự động hóa luồng | Zapier |</p>
+<h2>9. Example Prompts</h2>
+<pre><code>Prompt 1 (validate): "Kiểm tra hóa đơn sau: tổng = tiền hàng + thuế?
+MST đủ 10 số? Ngày hợp lệ? Trả về JSON các lỗi nếu có."
+
+Prompt 2 (account): "Gợi ý tài khoản kế toán cho hóa đơn mua văn phòng phẩm,
+máy tính, chi phí tiếp khách theo TT200."
+</code></pre>
+<h2>10. Template</h2>
+<ul>
+<li><code>invoice-entry-template.xlsx</code> — cột chuẩn + công thức kiểm tra tự động (free)</li>
+</ul>
+<h2>11. AI Limitations</h2>
+<ul>
+<li>OCR có thể sai trường (số hóa đơn, ngày, MST) nếu PDF mờ/quét xấu</li>
+<li>AI không phân biệt được loại hóa đơn (GTGT thật/giả)</li>
+<li>Không thay thế quyết định kế toán: ghi Nợ/Có, phân loại thuế</li>
+</ul>
+<h2>12. Expected Time Saving</h2>
+<p>~1h45m/day (từ 2h → 15 phút) cho kế toán có 30-50 hóa đơn/ngày.</p>
+5:["$","article",null,{"children":[["$","$L2",null,{"href":"/workflows","className":"text-sm text-brand","children":"← All workflows"}],["$","h1",null,{"className":"text-3xl font-bold text-brand mt-2","children":"Automate Invoice Processing"}],["$","div",null,{"className":"flex flex-wrap gap-2 text-xs my-3","children":[["$","span",null,{"className":"bg-slate-100 px-2 py-1 rounded","children":"Beginner"}],["$","span",null,{"className":"bg-slate-100 px-2 py-1 rounded","children":["saves ","2 hours/week"]}],["$","span",null,{"className":"bg-green-100 px-2 py-1 rounded","children":"free template"}]]}],["$","section",null,{"className":"mt-4 bg-white border rounded-lg p-5","children":[["$","h2",null,{"className":"font-semibold","children":"Accounting Objective"}],["$","p",null,{"className":"mt-1 text-slate-700","children":"Kế toán nhận hóa đơn PDF/email và phải nhập tay vào Excel mất ~2 giờ/ngày."}],["$","h2",null,{"className":"font-semibold mt-4","children":"Current vs AI-assisted"}],["$","p",null,{"className":"mt-1 text-slate-700","children":[["$","span",null,{"className":"line-through text-slate-400","children":"PDF → đọc tay → nhập Excel → kiểm tra"}]," →"," ","PDF Invoice → AI OCR → Excel/Accounting SW → review"]}],["$","h2",null,{"className":"font-semibold mt-4","children":"Steps"}],["$","ol",null,{"className":"list-decimal ml-5 mt-1 text-slate-700","children":[["$","li","0",{"children":"Upload hóa đơn vào công cụ OCR (Docsumo)"}],["$","li","1",{"children":"AI trích xuất trường: số hóa đơn, ngày, mã số thuế, thành tiền"}],["$","li","2",{"children":"Validate bằng ChatGPT (kiểm tra lệch số, thiếu trường)"}],["$","li","3",{"children":"Export ra Excel hoặc phần mềm kế toán"}],["$","li","4",{"children":"Review cuối trước khi ghi sổ"}]]}]]}],["$","section",null,{"className":"mt-6 prose max-w-none","dangerouslySetInnerHTML":{"__html":"$d"}}],["$","section",null,{"className":"mt-6 bg-white border rounded-lg p-5","children":[["$","h2",null,{"className":"font-semibold","children":"Tools used"}],["$","ul",null,{"className":"mt-2 flex flex-wrap gap-2","children":[["$","li","ChatGPT",{"className":"bg-brand text-white px-3 py-1 rounded text-sm","children":"ChatGPT"}],["$","li","Docsumo",{"className":"bg-brand text-white px-3 py-1 rounded text-sm","children":"Docsumo"}],["$","li","Microsoft Copilot",{"className":"bg-brand text-white px-3 py-1 rounded text-sm","children":"Microsoft Copilot"}],["$","li","Zapier",{"className":"bg-brand text-white px-3 py-1 rounded text-sm","children":"Zapier"}]]}]]}],["$","p",null,{"className":"mt-8 text-xs text-slate-500 italic","children":"AI recommendations should always be reviewed by qualified accounting professionals before being applied to financial records."}]]}]
+b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Automate Invoice Processing — AI Accountant Tools"}],["$","meta","2",{"name":"description","content":"Kế toán nhận hóa đơn PDF/email và phải nhập tay vào Excel mất ~2 giờ/ngày."}],["$","meta","3",{"name":"keywords","content":"automate invoice processing,AI OCR for invoices,how accountants automate invoice entry"}]]
+7:null

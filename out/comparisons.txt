@@ -1,0 +1,45 @@
+1:"$Sreact.fragment"
+2:I[8173,["173","static/chunks/173-767e48b05c5f9370.js","974","static/chunks/app/page-34b39ca2288ec6dc.js"],""]
+3:I[5244,[],""]
+4:I[3866,[],""]
+6:I[6213,[],"OutletBoundary"]
+8:I[6213,[],"MetadataBoundary"]
+a:I[6213,[],"ViewportBoundary"]
+c:I[4835,[],""]
+:HL["/_next/static/css/22b04e880097bbf4.css","style"]
+0:{"P":null,"b":"e7zLOA3_-cXA_bjK3X_Xy","p":"","c":["","comparisons"],"i":false,"f":[[["",{"children":["comparisons",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/22b04e880097bbf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"min-h-screen flex flex-col","children":[["$","header",null,{"className":"bg-brand text-white","children":["$","nav",null,{"className":"max-w-5xl mx-auto px-4 py-4 flex flex-wrap gap-4 text-sm","children":[["$","$L2",null,{"href":"/","className":"font-bold mr-4","children":"AI Accountant Tools"}],["$","$L2",null,{"href":"/workflows","children":"Workflows"}],["$","$L2",null,{"href":"/tools","children":"Tools"}],["$","$L2",null,{"href":"/templates","children":"Templates"}],["$","$L2",null,{"href":"/comparisons","children":"Comparisons"}]]}]}],["$","main",null,{"className":"flex-1 max-w-5xl mx-auto px-4 py-8 w-full","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],["$","div",null,{"className":"text-center py-20","children":[["$","h1",null,{"className":"text-3xl font-bold text-brand","children":"404 — Not found"}],["$","p",null,{"className":"mt-4 text-slate-600","children":"The page you are looking for does not exist."}],["$","$L2",null,{"href":"/","className":"text-brand underline mt-4 inline-block","children":"Back to home"}]]}]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-slate-800 text-slate-300 text-xs text-center py-6","children":["$","p",null,{"children":"AI Accountant Tools does not replace accounting judgement or regulatory compliance. AI recommendations should always be reviewed by qualified accounting professionals."}]}]]}]}]]}],{"children":["comparisons",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","comparisons","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","aE4EGYR-KFsEvodZETHkq",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+d:T4fa,<h1>ChatGPT vs Claude for Accountants</h1>
+<p>Nên dùng AI nào cho công việc kế toán? So sánh thực tế theo nghiệp vụ.</p>
+<h2>Tổng quan</h2>
+<p>| Tiêu chí | ChatGPT | Claude |
+|----------|---------|--------|
+| Phân tích số liệu / Excel | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+| Đọc báo cáo dài / audit | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| Viết báo cáo tiếng Việt | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| Giá | Free / Plus | Free / Pro |</p>
+<h2>Khi nào dùng ChatGPT</h2>
+<ul>
+<li>Lập công thức Excel, giải thích hàm.</li>
+<li>Phân tích nhanh bảng dữ liệu, trực quan hóa.</li>
+<li>Tạo draft báo cáo tài chính.</li>
+</ul>
+<h2>Khi nào dùng Claude</h2>
+<ul>
+<li>Đọc và tóm tắt hợp đồng, báo cáo kiểm toán dài.</li>
+<li>Kiểm tra tính nhất quán của nhiều tài liệu.</li>
+<li>Cần ngữ cảnh lớn (long context).</li>
+</ul>
+<h2>Khuyến nghị cho kế toán</h2>
+<ul>
+<li><strong>Dùng cả hai:</strong> ChatGPT cho xử lý số, Claude cho đọc tài liệu.</li>
+<li>Mua bản Plus/Pro nếu dùng chuyên nghiệp (>2 giờ/ngày).</li>
+</ul>
+<h2>Affiliate</h2>
+<ul>
+<li>Thử ChatGPT Plus → [link affiliate]</li>
+<li>Thử Claude Pro → [link affiliate]</li>
+</ul>
+5:["$","div",null,{"children":[["$","h1",null,{"className":"text-3xl font-bold text-brand","children":"Comparisons"}],["$","article",null,{"className":"mt-4 prose max-w-none bg-white border rounded-lg p-5","dangerouslySetInnerHTML":{"__html":"$d"}}]]}]
+b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"AI Comparisons for Accountants — AI Accountant Tools"}],["$","meta","2",{"name":"description","content":"ChatGPT vs Claude for accountants, Excel Copilot vs ChatGPT, and more practical comparisons."}],["$","meta","3",{"name":"keywords","content":"ChatGPT vs Claude accountants,Excel Copilot vs ChatGPT"}]]
+7:null

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Invoice Processing",
+    "slug": "invoice-processing",
+    "difficulty": "Beginner",
+    "time_saved": "2 hours/week",
+    "old_way": "Manual PDF entry into Excel",
+    "new_way": "AI OCR + validation + export",
+    "tools": ["ChatGPT", "Docsumo", "Microsoft Copilot", "Zapier"],
+    "target_user": ["Accountant", "AP Clerk", "SME Finance Team"],
+    "industry": ["Retail", "Manufacturing", "Service"],
+    "free_template": true
+  },
+  {
+    "name": "Bank Reconciliation",
+    "slug": "bank-reconciliation",
+    "difficulty": "Intermediate",
+    "time_saved": "3 hours/month",
+    "old_way": "Match transactions line by line in Excel",
+    "new_way": "Excel template + AI check for differences",
+    "tools": ["Microsoft Copilot", "ChatGPT", "Julius AI"],
+    "target_user": ["Accountant", "SME Finance Team"],
+    "industry": ["Retail", "Manufacturing", "Service"],
+    "free_template": true
+  },
+  {
+    "name": "Expense Management",
+    "slug": "expense-management",
+    "difficulty": "Beginner",
+    "time_saved": "1.5 hours/week",
+    "old_way": "Collect paper receipts, manual categorize",
+    "new_way": "Scan receipt + AI categorize + export",
+    "tools": ["ChatGPT", "Zapier"],
+    "target_user": ["Accountant", "SME Finance Team"],
+    "industry": ["Retail", "Service", "Startup"],
+    "free_template": false
+  },
+  {
+    "name": "Month-end Closing",
+    "slug": "month-end-closing",
+    "difficulty": "Advanced",
+    "time_saved": "4 hours/month",
+    "old_way": "Manual checklist, copy-paste across files",
+    "new_way": "Checklist template + AI review of variances",
+    "tools": ["ChatGPT", "Notion AI", "Gamma AI"],
+    "target_user": ["Accountant", "Finance Manager"],
+    "industry": ["Retail", "Manufacturing", "Service"],
+    "free_template": true
+  },
+  {
+    "name": "Financial Reporting",
+    "slug": "financial-reporting",
+    "difficulty": "Intermediate",
+    "time_saved": "3 hours/month",
+    "old_way": "Build report manually in Word/Excel",
+    "new_way": "AI draft + human edit + auto layout",
+    "tools": ["ChatGPT", "Claude", "Gamma AI"],
+    "target_user": ["Accountant", "Finance Manager", "Financial Analyst"],
+    "industry": ["Retail", "Manufacturing", "Service"],
+    "free_template": true
+  },
+  {
+    "name": "Tax Preparation",
+    "slug": "tax-preparation",
+    "difficulty": "Advanced",
+    "time_saved": "5 hours/quarter",
+    "old_way": "Manual gathering and calculation",
+    "new_way": "AI organize docs + flag deductions",
+    "tools": ["Claude", "Perplexity AI", "ChatGPT"],
+    "target_user": ["Accountant", "Tax Specialist"],
+    "industry": ["Retail", "Manufacturing", "Service", "Startup"],
+    "free_template": false
+  },
+  {
+    "name": "Excel Automation",
+    "slug": "excel-automation",
+    "difficulty": "Intermediate",
+    "time_saved": "2 hours/week",
+    "old_way": "Repeat formulas and pivots by hand",
+    "new_way": "Copilot generate formulas + Power Query",
+    "tools": ["Microsoft Copilot", "Rows AI", "ChatGPT"],
+    "target_user": ["Accountant", "SME Finance Team", "Financial Analyst"],
+    "industry": ["Retail", "Manufacturing", "Service"],
+    "free_template": true
+  },
+  {
+    "name": "Data Analysis",
+    "slug": "data-analysis",
+    "difficulty": "Intermediate",
+    "time_saved": "2.5 hours/week",
+    "old_way": "Manual pivot and chart building",
+    "new_way": "Upload CSV + AI insight and chart",
+    "tools": ["Julius AI", "ChatGPT", "Rows AI"],
+    "target_user": ["Accountant", "Financial Analyst"],
+    "industry": ["Retail", "Manufacturing", "Service"],
+    "free_template": false
+  }
+]
