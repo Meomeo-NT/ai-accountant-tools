@@ -147,5 +147,5 @@ Khi cần section nền tối (lấy cảm hứng từ Linear + Mercury):
 - [x] Sửa `PainCard.tsx` — áp dụng card design mới
 - [x] Import Inter font trong layout.tsx bằng `next/font/google`
 - [x] Tăng spacing giữa các section (my-24, py-16)
-- [ ] Build local test
-- [ ] Push lên GitHub
+- [ ] Build local test (tạm gác — Vercel build thay)
+- [x] Push lên GitHub

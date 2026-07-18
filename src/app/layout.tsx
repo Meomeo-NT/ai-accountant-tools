@@ -15,19 +15,6 @@ export const metadata: Metadata = {
     "AI workflow for finance",
     "Excel automation for accounting",
   ],
-  icons: {
-    icon: [
-      { url: "/favicon.svg", type: "image/svg+xml" },
-    ],
-  },
-  openGraph: {
-    title: "AI Accountant Tools — Smart Accounting Toolkit",
-    description:
-      "AI helps accountants work faster without replacing accounting judgement. Tools, templates and workflows for accounting automation.",
-    type: "website",
-    siteName: "AI Accountant Tools",
-    locale: "vi_VN",
-  },
 };
 
 export default function RootLayout({
@@ -47,7 +34,6 @@ export default function RootLayout({
             <Link href="/tools">Tools</Link>
             <Link href="/templates">Templates</Link>
             <Link href="/comparisons">Comparisons</Link>
-            <Link href="/about">About</Link>
           </nav>
         </header>
         <main className="flex-1 max-w-6xl mx-auto px-4 py-16 w-full">
@@ -65,15 +51,6 @@ export default function RootLayout({
             trong bài viết nếu bạn đăng ký sử dụng. Điều này không làm tăng chi phí
             của bạn và hoàn toàn không ảnh hưởng đến tính khách quan, trung thực
             của các bài đánh giá.
-          </p>
-          <p className="mt-3">
-            <Link href="/privacy" className="hover:text-white underline">
-              Privacy Policy
-            </Link>
-            {" · "}
-            <Link href="/about" className="hover:text-white underline">
-              About
-            </Link>
           </p>
         </footer>
       </body>
