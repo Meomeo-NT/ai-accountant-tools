@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getAllWorkflows } from "@/lib/workflows";
 import { getAllTools } from "@/lib/tools";
+import PainSection from "@/components/PainSection";
 
 export default function HomePage() {
   const workflows = getAllWorkflows();
@@ -15,6 +16,9 @@ export default function HomePage() {
         <p className="mt-4 text-lg text-slate-600">
           Smart Accounting Toolkit — tools, templates and AI workflows that help
           accountants work faster.
+        </p>
+        <p className="mt-4 text-base text-slate-700">
+          Bạn vẫn đang ngồi nhập hóa đơn bằng tay mỗi ngày?
         </p>
         <p className="mt-2 text-sm text-slate-500 italic">
           AI helps accountants work faster without replacing accounting
@@ -35,6 +39,8 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
+
+      <PainSection />
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold mb-4">Featured Workflows</h2>

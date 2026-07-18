@@ -36,11 +36,15 @@ export default function RootLayout({
         <main className="flex-1 max-w-5xl mx-auto px-4 py-8 w-full">
           {children}
         </main>
-        <footer className="bg-slate-800 text-slate-300 text-xs text-center py-6">
+        <footer className="bg-slate-800 text-slate-300 text-xs text-center py-6 px-4">
           <p>
             AI Accountant Tools does not replace accounting judgement or
             regulatory compliance. AI recommendations should always be reviewed
             by qualified accounting professionals.
+          </p>
+          <p className="mt-2">
+            We may earn commissions from some links on this site, at no extra
+            cost to you. This does not affect the objectivity of our content.
           </p>
         </footer>
       </body>
