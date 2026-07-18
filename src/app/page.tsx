@@ -9,7 +9,7 @@ export default function HomePage() {
 
   return (
     <div>
-      <section className="text-center py-10">
+      <section className="text-center py-12">
         <h1 className="text-4xl font-bold text-brand">
           AI Accountant Tools
         </h1>
@@ -42,7 +42,7 @@ export default function HomePage() {
 
       <PainSection />
 
-      <section className="mt-10">
+      <section className="mt-16">
         <h2 className="text-2xl font-semibold mb-4">Featured Workflows</h2>
         <div className="grid md:grid-cols-2 gap-4">
           {workflows.map((w) => (

@@ -54,7 +54,7 @@ const painPoints = [
 export default function PainSection() {
   return (
     <section className="mt-12">
-      <h2 className="text-2xl font-semibold mb-2">
+      <h2 className="text-2xl font-bold mb-2 text-brand">
         Những điểm ngẽn kế toán nào AI có thể giúp?
       </h2>
       <p className="text-sm text-slate-500 mb-6">
