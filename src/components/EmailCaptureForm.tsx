@@ -9,7 +9,7 @@
  * Replace FORMSPREE_ENDPOINT with your real Formspree URL after
  * registering at https://formspree.io
  */
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xgogkebj";
 
 export default function EmailCaptureForm() {
   return (
