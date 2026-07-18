@@ -58,10 +58,29 @@ export default function PainSection() {
         Những điểm ngẽn kế toán nào AI có thể giúp?
       </h2>
       <p className="text-sm text-slate-500 mb-6">
-        Theo báo cáo Wolters Kluwer 2025, tỷ lệ áp dụng AI tại các hãng kế toán
-        đã tăng từ 9% lên 41% trong một năm. Người dùng AI cho biết họ đóng sổ
-        nhanh hơn trung bình 7,5 ngày so với phương pháp thủ công (Journal of
-        Accountancy, khảo sát trên 277 kế toán viên).
+        Theo khảo sát quốc tế của{" "}
+        <a
+          href="https://www.wolterskluwer.com/en/knowledge/future-ready-accountant"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-brand"
+        >
+          Wolters Kluwer (Future Ready Accountant Report)
+        </a>
+        , tỷ lệ ứng dụng AI tại các hãng kế toán tăng từ 9% lên 41% chỉ trong 1
+        năm. Một nghiên cứu khác của{" "}
+        <a
+          href="https://www.journalofaccountancy.com/news/2025/ai-adoption-accounting-closing-books.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-brand"
+        >
+          Journal of Accountancy
+        </a>{" "}
+        trên 277 kế toán viên cho thấy nhóm dùng AI hỗ trợ đóng sổ cuối tháng
+        hoàn thành nhanh hơn trung bình 7.5 ngày so với quy trình thủ công. Đây
+        là số liệu quốc tế, mang tính tham khảo — kết quả thực tế tùy thuộc quy
+        trình và công cụ mỗi nơi áp dụng.
       </p>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
         {painPoints.map((p, i) => (

@@ -39,8 +39,6 @@ export default function EmailCaptureForm() {
       <p className="mt-2 text-xs text-slate-400">
         Không spam. Hủy bất cứ lúc nào.
       </p>
-      {/* Formspree redirect after submit */}
-      <input type="hidden" name="_next" value="https://ai-accountant-tools.vercel.app/templates?thankyou" />
     </form>
   );
 }

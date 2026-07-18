@@ -42,9 +42,12 @@ export default function RootLayout({
             regulatory compliance. AI recommendations should always be reviewed
             by qualified accounting professionals.
           </p>
-          <p className="mt-2">
-            We may earn commissions from some links on this site, at no extra
-            cost to you. This does not affect the objectivity of our content.
+          <p className="mt-2 text-slate-400">
+            Minh bạch: Kế Toán AI là một chuyên mục độc lập. Chúng tôi có thể
+            nhận hoa hồng liên kết (affiliate) từ một số công cụ được giới thiệu
+            trong bài viết nếu bạn đăng ký sử dụng. Điều này không làm tăng chi phí
+            của bạn và hoàn toàn không ảnh hưởng đến tính khách quan, trung thực
+            của các bài đánh giá.
           </p>
         </footer>
       </body>
