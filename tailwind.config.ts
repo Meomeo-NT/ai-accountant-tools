@@ -12,8 +12,18 @@ const config: Config = {
           light: "#2c5282",
         },
         accent: {
-          DEFAULT: "#16a085",
-          light: "#1abc9c",
+          DEFAULT: "#0d9488",   // teal — dùng cho bg/border/icon
+          light: "#14b8a6",     // teal sáng — hover state
+        },
+        "accent-text": {
+          DEFAULT: "#0f766e",   // teal-700 đậm — dùng cho mọi text (WCAG AA ~5.2:1)
+        },
+        neutral: {
+          50: "#f8fafc",
+          100: "#f1f5f9",
+          200: "#e2e8f0",
+          600: "#475569",
+          900: "#0f172a",
         },
       },
     },

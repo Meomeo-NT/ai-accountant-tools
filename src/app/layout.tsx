@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Inter } from "next/font/google";
 import "./globals.css";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "AI Accountant Tools — Smart Accounting Toolkit",
@@ -21,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex flex-col">
+      <body className={`${inter.className} min-h-screen flex flex-col`}>
         <header className="bg-brand text-white">
           <nav className="max-w-5xl mx-auto px-4 py-4 flex flex-wrap gap-4 text-sm">
             <Link href="/" className="font-bold mr-4">
@@ -33,7 +36,7 @@ export default function RootLayout({
             <Link href="/comparisons">Comparisons</Link>
           </nav>
         </header>
-        <main className="flex-1 max-w-5xl mx-auto px-4 py-8 w-full">
+        <main className="flex-1 max-w-6xl mx-auto px-4 py-16 w-full">
           {children}
         </main>
         <footer className="bg-slate-800 text-slate-300 text-xs text-center py-6 px-4">
